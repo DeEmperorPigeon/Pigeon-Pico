@@ -25,7 +25,8 @@ class Scene:
     
     def draw_scene(self):
         for item in self.items:
-            pass
+            if item["item_type"] = "text":
+                pass
             
     def change_menu(self, menuname):
         global current_menu
@@ -41,6 +42,7 @@ class Scene:
               "x":x,
               "y":y,
               "pen":pen,
+              "type":item_type
             })
 
 def screen_update(pen):
