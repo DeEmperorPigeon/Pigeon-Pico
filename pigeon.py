@@ -25,7 +25,7 @@ class Scene:
     
     def draw_scene(self):
         for item in self.items:
-            
+            pass
             
     def change_menu(self, menuname):
         global current_menu
